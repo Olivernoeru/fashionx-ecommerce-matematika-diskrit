@@ -23,10 +23,10 @@ export const categories: Category[] = [
     order: 1
   },
   {
-    id: 't-shirt',
-    name: 'T-Shirt',
-    slug: 't-shirt',
-    description: 'Essential tees for everyday style',
+    id: 'kemeja',
+    name: 'Kemeja',
+    slug: 'kemeja',
+    description: 'Stylish shirts for any occasion',
     image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600',
     order: 2
   },
@@ -79,10 +79,11 @@ export const subCategories: Category[] = [
   { id: 'formal-dress', name: 'Formal Dress', slug: 'formal-dress', description: '', image: '', parentId: 'dress', order: 2 },
   { id: 'mini-dress', name: 'Mini Dress', slug: 'mini-dress', description: '', image: '', parentId: 'dress', order: 3 },
   
-  // T-Shirt
-  { id: 'basic-tee', name: 'Basic Tee', slug: 'basic-tee', description: '', image: '', parentId: 't-shirt', order: 1 },
-  { id: 'graphic-tee', name: 'Graphic Tee', slug: 'graphic-tee', description: '', image: '', parentId: 't-shirt', order: 2 },
-  { id: 'oversized-tee', name: 'Oversized Tee', slug: 'oversized-tee', description: '', image: '', parentId: 't-shirt', order: 3 },
+  // Kemeja
+  { id: 'oxford-shirt', name: 'Oxford Shirt', slug: 'oxford-shirt', description: '', image: '', parentId: 'kemeja', order: 1 },
+  { id: 'linen-shirt', name: 'Linen Shirt', slug: 'linen-shirt', description: '', image: '', parentId: 'kemeja', order: 2 },
+  { id: 'flannel-shirt', name: 'Flannel Shirt', slug: 'flannel-shirt', description: '', image: '', parentId: 'kemeja', order: 3 },
+  { id: 'dress-shirt', name: 'Dress Shirt', slug: 'dress-shirt', description: '', image: '', parentId: 'kemeja', order: 4 },
   
   // Hoodie
   { id: 'pullover-hoodie', name: 'Pullover', slug: 'pullover-hoodie', description: '', image: '', parentId: 'hoodie', order: 1 },
