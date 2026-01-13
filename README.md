@@ -33,5 +33,5 @@ Website ini mengimplementasikan beberapa konsep Matematika Diskrit, antara lain:
 - Pembuatan invoice transaksi
 - Halaman riwayat pesanan pengguna
 
-## 📦 Catatan Pengembangan
+## Catatan Pengembangan
 Website ini dikembangkan sebagai media pembelajaran. Seluruh sistem pembayaran dan keamanan bersifat simulasi dengan tujuan memahami konsep logika, struktur data, dan Matematika Diskrit dalam pengembangan perangkat lunak.
